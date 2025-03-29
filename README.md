@@ -21,18 +21,37 @@ Rihlat al-Iman is an open-source web application that provides structured access
 - **Routing**: React Router  
 - **API**: [Hadith-API](https://github.com/fawazahmed0/hadith-api)  
 
-## ⬇️ Installation  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Afza-Khursheed123/Rihlat-ul-Iman.git
-Install dependencies:
+## ✨ Features
+### 🔍 Hadith Exploration
+- Thematic categorization
+- Authenticity grading indicators
+- Arabic/English bilingual support
 
-    ```bash
-    npm run dev
-Run locally:
-   
-     ```bash
-      npm insatll
+### 🛠️ Technical Features
+- Lightning-fast search
+- Mobile-responsive design
+- Offline caching capability
+
+## 🚀 Getting Started
+### Prerequisites
+- Node.js (v18 or higher)
+- npm (v9 or higher)
+
+### Installation
+```bash
+   # Clone the repository
+   git clone https://github.com/Afza-Khursheed123/Rihlat-ul-Iman.git
+
+   # Navigate to project directory
+   cd Rihlat-ul-Iman
+         
+   # Install dependencies
+   npm install
+
+   # Start development server
+   npm run dev
+
+```
 ## 🤝 How to Contribute
 **We welcome contributions!**
 
