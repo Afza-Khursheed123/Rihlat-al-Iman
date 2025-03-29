@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Category from './categories';
-import backGroundImg from './assets/backGroundImg.jpg'
+import backGroundImg from './public/backGroundImg.jpg'
 function Title() {
   const customDarkGreen = "#243127"
   const customGreen = "#464b37"

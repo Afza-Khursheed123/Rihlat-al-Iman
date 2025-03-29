@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './navbar';
-import backGroundImg from './assets/backGroundImg.jpg'
+import backGroundImg from './public/backGroundImg.jpg'
 import Footer from './Footer';
 export default function About() {
   const customDarkGreen = "#243127"

@@ -1,6 +1,5 @@
-import logo from './assets/logo.jpg';
+import logo from './public/logo.jpg';
 import { useState } from 'react';
-import Home from './Home';
 import { Link } from 'react-router-dom';
 export default function NavBar() {
     const customGreen = "#464b37";
