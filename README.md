@@ -1,7 +1,7 @@
 # 📖 Rihlat al-Iman (رحلة الإيمان)  
 *A Journey Through Authentic Hadiths*  
 
-![App Screenshot](./assets/screenshot.png)
+![App Screenshot](./assets/backGroundImg.png)
 
 ## 🌟 About  
 Rihlat al-Iman is an open-source web application that provides structured access to authentic Hadith collections with:  
@@ -26,11 +26,11 @@ Rihlat al-Iman is an open-source web application that provides structured access
    ```bash
    git clone https://github.com/Afza-Khursheed123/Rihlat-ul-Iman.git
 Install dependencies:
-
-```npm install```
+   ```bash
+   npm install
 Run locally:
-
-```npm run dev```
+    ```bash
+   npm run dev
 ## 🤝 How to Contribute
 **We welcome contributions!**
 
