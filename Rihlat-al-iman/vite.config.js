@@ -12,9 +12,7 @@ export default defineConfig({
     outDir: 'dist',
     assetsInlineLimit: 0,
     manifest: true,
-    rollupOptions: {
-      external: ['react-router-hash-link']
-    }
+   
   },
   server: {
     headers: {
