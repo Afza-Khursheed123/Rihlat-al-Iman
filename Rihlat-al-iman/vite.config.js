@@ -12,10 +12,9 @@ export default defineConfig({
     outDir: 'dist',
     assetsInlineLimit: 0,
     manifest: true,
-    rollupOptions: {
-      // Add react-router-hash-link to external dependencies
-      external: ['react-router-hash-link']
-    }
+     optimizeDeps: {
+    include: ['react-router-hash-link']
+  }
   },
   server: {
     headers: {
