@@ -29,10 +29,11 @@ export default function About() {
           </h2>
         </div>
         <div className="flex flex-col z-10 items-center justify-center w-40 h-18">
-          <a href="#about-content"><div className="px-3 py-1 text-lg font-medium text-center text-white rounded-full " style={{ backgroundColor: customGreen }}>
-            See more...
-          </div>
-          </a>
+       <a href="#about-content">
+  <button className="px-3 py-1 text-lg font-medium text-center text-white rounded-full" style={{ backgroundColor: customGreen }}>
+    See more...
+  </button>
+</a>
         </div>
       </div>
       <div id='about-content' className="relative w-full h-full flex flex-col justify-center items-center overflow-hidden sm:mt-20 mb-8">
