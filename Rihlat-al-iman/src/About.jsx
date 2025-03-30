@@ -1,4 +1,6 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
+
 import NavBar from './navbar';
 import backGroundImg from './public/backGroundImg.jpg'
 import Footer from './Footer';
@@ -11,7 +13,7 @@ export default function About() {
       <div className="w-full fixed top-0 z-50">
         <NavBar />
       </div>
-      <div className="relative w-full  h-screen flex flex-col justify-center items-center overflow-hidden " >
+      <div className="relative w-full  min-h-screen flex flex-col justify-center items-center overflow-hidden " >
         <img
           src={backGroundImg}
           alt="backgroundImage"
@@ -29,11 +31,12 @@ export default function About() {
           </h2>
         </div>
         <div className="flex flex-col z-10 items-center justify-center w-40 h-18">
-  <a href="#about-content" className="scroll-smooth">
+  
+<Link smooth to="#about-content">
   <button className="px-3 py-1 text-lg font-medium text-center text-white rounded-full" style={{ backgroundColor: customGreen }}>
     See more...
   </button>
-</a>
+</Link>
         </div>
       </div>
       <div id='about-content' className="relative w-full h-full flex flex-col justify-center items-center overflow-hidden sm:mt-20 mb-8">
