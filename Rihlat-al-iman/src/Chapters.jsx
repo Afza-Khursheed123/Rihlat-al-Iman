@@ -49,7 +49,7 @@ function Chapters() {
         sectionNumber > 0 ?
           <div onClick={() => handleChapterClick(sectionNumber)}
             key={sectionNumber}
-            className="max-w-sm sm:w-80 w-38 sm:p-6 p-3 opacity-100 sm:h-60 h-50 rounded-lg  dark:border-gray-700 mt-2 mb-2 m-1 sm:m-3 relative text-sm hover:shadow-lg hover:shadow-yellow-200" style={{ background: customGreen }}
+            className="max-w-sm sm:w-80 w-38 sm:p-6 p-3 opacity-100 sm:h-60 h-60 rounded-lg  dark:border-gray-700 mt-2 mb-2 m-1 sm:m-3 relative text-sm hover:shadow-lg hover:shadow-amber-200" style={{ background: customGreen }}
           >
 
             <a target="_blank" rel="noopener noreferrer "  >
