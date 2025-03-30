@@ -29,7 +29,7 @@ export default function About() {
           </h2>
         </div>
         <div className="flex flex-col z-10 items-center justify-center w-40 h-18">
-       <a href="#about-content">
+  <a href="#about-content" className="scroll-smooth">
   <button className="px-3 py-1 text-lg font-medium text-center text-white rounded-full" style={{ backgroundColor: customGreen }}>
     See more...
   </button>
