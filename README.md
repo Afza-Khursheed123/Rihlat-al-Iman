@@ -1,7 +1,7 @@
 # 📖 Rihlat al-Iman (رحلة الإيمان)  
 *A Journey Through Authentic Hadiths*  
 
-![App Screenshot](./src/assets/backGroundImg.png)
+![App Screenshot](./homepage.png)
 
 ## 🌟 About  
 Rihlat al-Iman is an open-source web application that provides structured access to authentic Hadith collections with:  
